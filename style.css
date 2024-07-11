@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: "Monserrat" , sans-serif;
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+.hero {
+    background: url(./images/1.png) center/cover;
+    height: 720px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 250px;
+} 
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.logo {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.hero-info {
+    background: rgba(0, 0, 0, 0.153);
+    text-align: center;
+}
+.hero-title {
+    color: #fff;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.hero-title6 {
+    color: #F7F3F2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24.5px;
+}
+
+.hero-pre-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 18px;
+    border-radius: 40px;
+    background: #FF4E50;
+    border: none;
+}
